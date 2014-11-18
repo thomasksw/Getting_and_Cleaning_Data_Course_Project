@@ -1,26 +1,25 @@
-Getting_and_Cleaning_Data_Course_Project
+# Getting_and_Cleaning_Data_Course_Project
 ========================================
-# Getting and Cleaning Data 
-# Script name: run_analysis.R
-# Set directory to C:\user\documents\Data Science
-# This script does the following. 
-# 1.	Merges the training and the test sets to create one data set.
-# 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
-# 3.	Uses descriptive activity names to name the activities in the data set
-# 4.	Appropriately labels the data set with descriptive variable names. 
-# 5.	From the data set in step 4, creates a second, independent tidy data set with 
-#    the average of each variable for each activity and each subject.
-#
+Script name: run_analysis.R
+Set directory to C:\user\documents\Data Science
+This script does the following. 
+1.	Merges the training and the test sets to create one data set.
+2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
+3.	Uses descriptive activity names to name the activities in the data set
+4.	Appropriately labels the data set with descriptive variable names. 
+5.	From the data set in step 4, creates a second, independent tidy data set with 
+   the average of each variable for each activity and each subject.
+
 # Data spec. of the columns of the data set created in step 5 - sortedDataAverage.txt
-# Activity - label on type of activity measured: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
-# Subject - An identifier of the subject who carried out the experiment
-# TrainSet - A combined data of 561-feature vector of time and frequency domain variables
-# body_acc_x/body_acc_y/body_acc_z refers to Triaxial acceleration on x, y, z axis  
-# body_gyro_x/body_gyro_y/body_gyro_z - triaxial angular velocity from the gyroscope 
-# total_acc_x/total_acc_y/total_acc_z refers to estimated total acceleration on x, y, z axis
+ Activity - label on type of activity measured: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
+ Subject - An identifier of the subject who carried out the experiment
+ TrainSet - A combined data of 561-feature vector of time and frequency domain variables
+ body_acc_x/body_acc_y/body_acc_z refers to Triaxial acceleration on x, y, z axis  
+ body_gyro_x/body_gyro_y/body_gyro_z - triaxial angular velocity from the gyroscope 
+ total_acc_x/total_acc_y/total_acc_z refers to estimated total acceleration on x, y, z axis
  
-License & Acknowledgement 
-==========================
+# License & Acknowledgement 
+
 Thanks for the use of the dataset in the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. 
